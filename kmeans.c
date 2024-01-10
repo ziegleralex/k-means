@@ -114,7 +114,7 @@ void update_centroids(int n, int d, double x[n][d], int y[n], int k, double cent
 
 void cluster(int n, int d, double x[n][d], int y[n], int k, double centroids[k][d], distance dist) {
 
-    assert(n > 0 && "hey, I need at least one instance in the training data!"); // credits to mr baumann
+    assert(n > 0 && "hey, I need at least one instance in the training data!");
 
     // 1: define amount of cluster centroids (in this case k)
 
