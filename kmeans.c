@@ -126,10 +126,6 @@ void cluster(int n, int d, double x[n][d], int y[n], int k, double centroids[k][
     bool converged = false;
     int previous[n];
 
-    for (int i = 0; i < n; ++i) {
-        printf("%d\n", previous[i]);
-    }
-
     do {
 
         // 3: calculate the distance between each point to the centroids and add the nearest to its cluster
